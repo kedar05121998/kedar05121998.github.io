@@ -33,8 +33,9 @@ function NavBar() {
       fixed="top"
       expand="md"
       className={navColour ? "sticky" : "navbar"}
+  
     >
-      <Container>
+      <Container     >
         <Navbar.Brand href="/" className="d-flex">
           <strong className="purple namelogo">K P</strong>
         </Navbar.Brand>
@@ -48,11 +49,11 @@ function NavBar() {
           <span></span>
           <span></span>
         </Navbar.Toggle>
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto" defaultActiveKey="#home">
+        <Navbar.Collapse id="responsive-navbar-nav"   >
+          <Nav className="ms-auto" defaultActiveKey="#home" >
             <Nav.Item>
-              <Nav.Link href="#home" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+              <Nav.Link href="#home" onClick={() => updateExpanded(false)}  >
+                <AiOutlineHome style={{ marginBottom: "2px",color:"white" }}  /> Home
               </Nav.Link>
             </Nav.Item>
 

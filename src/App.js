@@ -5,6 +5,7 @@ import NavBar from './components/Navbar';
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Main from './components/Main';
 // import Main from "./components/Main";
 
 
@@ -23,7 +24,7 @@ function App() {
     // id={load ? "no-scroll" : "scroll"}
     >
         <NavBar />
-     
+     <Main/>
        
       </div>
   );
