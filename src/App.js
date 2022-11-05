@@ -6,25 +6,28 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Main from './components/Main';
+import Footer from './components/Footer';
+import { useEffect, useState } from 'react';
 // import Main from "./components/Main";
 
 
 function App() {
-  // const [load, upadateLoad] = useState(true);
+  const [load, upadateLoad] = useState(true);
 
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     upadateLoad(false);
-  //   }, 1200);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      upadateLoad(false);
+    }, 1200);
 
-  //   return () => clearTimeout(timer);
-  // }, []);
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <div className="App" 
-    // id={load ? "no-scroll" : "scroll"}
+    id={load ? "no-scroll" : "scroll"}
     >
         <NavBar />
      <Main/>
+     <Footer/>
        
       </div>
   );

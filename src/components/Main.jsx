@@ -1,5 +1,6 @@
 import React from 'react'
-// import About from '../../../template/Portfolio-master/src/components/About/About'
+import Contact from "../components/Contact"
+import About from "../components/About/About"
 // import AboutCard from './About/AboutCard'
 
 
@@ -11,8 +12,9 @@ const Main = () => {
   return (
     <div>
         <Home/>
-        {/* <About/> */}
+        <About/>
         <Projects/>
+        <Contact/>
         
       
     </div>
