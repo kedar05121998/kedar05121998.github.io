@@ -4,7 +4,8 @@ import ProjectCard from "./ProjectCards";
 import betterCloud from "../../Assets/project/betterCloud.png"
 import dotandkey from "../../Assets/project/dotandkey.png"
 import fabbag from "../../Assets/project/fabbag.png"
-
+import weather from "../../Assets/project/weather.png"
+import tripoto from "../../Assets/project/tripoto.png"
 function Projects() {
   return (
     <Container  fluid className="project-section">
@@ -18,6 +19,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tripoto}
+              isBlog={false}
+              title="tripoto.com Clone"
+              description="Tripoto-Clone-Project: is a travel community and travel search engine portal based on user-generated content. It allows users to write travel stories and discover those written by other travelers."
+              stacks="Tech Stack : ReactJS,NodeJS,MongoDB,ExpressJS,Javascript,Chakra UI "
+              ghLink="https://github.com/atul85400krishna/wasteful-cast-8657"
+              demoLink="https://cosmic-klepon-f5ae52.netlify.app/"              
+            />
+          </Col>
 
         <Col md={4} className="project-card">
             <ProjectCard
@@ -56,29 +69,19 @@ function Projects() {
 
         
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={weather}
               isBlog={false}
               title="Weather App"
-              description="A weather forecasting web application built using weather API. It shows city and current location based weather data with next 5 hours and 5 days forecast."
-              stacks="Tech Stack : React, Javascript, Tailwind-CSS, Rest-API"
-              ghLink="https://github.com/aakarsh604/React_WeatherApp"
-              demoLink="https://incandescent-toffee-012bd4.netlify.app/"
+              description="A weather forecasting web application built using weather API. It shows city and current location."
+              stacks="Tech Stack :  Javascript, Tailwind-CSS, Rest-API"
+              ghLink="https://github.com/kedar05121998/Weather-App/tree/main"
+              demoLink="https://keen-nasturtium-8da81a.netlify.app/"
             />
-          </Col> */}
+          </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Gearbest.com Clone"
-              description="A cloned web application of gearbest.com is an E-commerce platform selling an extensive range of goods from clothing, accessories, appliances, home-decor, and electronic gadgets."
-              stacks="Tech Stack : HTML5, CSS3, Javascript"
-              ghLink="https://github.com/aakarsh604/Gearbest-Clone"
-              demoLink="https://silly-queijadas-e172c2.netlify.app/"              
-            />
-          </Col>  */}
+          
 
           {/* <Col md={4} className="project-card">
             <ProjectCard

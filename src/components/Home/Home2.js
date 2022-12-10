@@ -17,9 +17,9 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               <i>
-                <b className="purple">Full Stack Developer </b>
+                <b className="purple">Full Stack Developer    </b>
               </i>
-              A highly motivated enthusiast with leadership
+               with highly motivated enthusiast with leadership
                   skills having a Bachelor of Engineering degree. A person who is eager
                   to learn new technologies and methodologies
                   and wants to succeed in an environment of
