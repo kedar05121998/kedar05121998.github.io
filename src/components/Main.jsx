@@ -8,11 +8,13 @@ import Home from './Home/Home'
 import Projects from './Projects/Projects'
 
 
+
 const Main = () => {
   return (
     <div>
         <Home/>
         <About/>
+      
         <Projects/>
         <Contact/>
         
