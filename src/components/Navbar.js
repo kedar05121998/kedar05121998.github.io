@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import pdf from "../Assets/Resume.pdf"
+// import pdf from "../Assets/Kedar-Pathak-Resume.pdf"
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -101,7 +101,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href={pdf}
+                href={`https://drive.google.com/file/d/18hCJHp_lz8MA2m2YKv0QIZ8Hs2oGR9lz/view?usp=share_link`}
                 target="_blank"
                 onClick={() => updateExpanded(false)}
               >
