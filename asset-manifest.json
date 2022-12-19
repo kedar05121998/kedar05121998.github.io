@@ -1,23 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.ba141f7f.css",
-    "main.js": "/static/js/main.735ed24c.js",
+    "main.js": "/static/js/main.aff0d71e.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
     "static/media/tripoto.png": "/static/media/tripoto.4dc1a82c41d4a228f69b.png",
     "static/media/weather.png": "/static/media/weather.3ba7ebbe8ea23099f3dc.png",
     "static/media/dotandkey.png": "/static/media/dotandkey.1e0e75aa18a1da3d890c.png",
+    "static/media/shop.png": "/static/media/shop.9c5b17fbb800f9c96e2c.png",
     "static/media/fabbag.png": "/static/media/fabbag.83563ef8bba3aafcf5c7.png",
     "static/media/Resume.pdf": "/static/media/Resume.af8dceba7c6d9f4e62c6.pdf",
+    "static/media/formalpassport.jpg": "/static/media/formalpassport.eea620aea32665a2d87a.jpg",
     "static/media/betterCloud.png": "/static/media/betterCloud.cd18c2ea8af749986875.png",
     "static/media/logo.png": "/static/media/logo.b58d81727b47466a7cda.png",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.ba141f7f.css.map": "/static/css/main.ba141f7f.css.map",
-    "main.735ed24c.js.map": "/static/js/main.735ed24c.js.map",
+    "main.aff0d71e.js.map": "/static/js/main.aff0d71e.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba141f7f.css",
-    "static/js/main.735ed24c.js"
+    "static/js/main.aff0d71e.js"
   ]
 }
