@@ -41,8 +41,8 @@ function Github() {
 
      <Flex  w={{base : '70%', md : '80%', lg :'30%'}}  m='auto' mt={{base : '15px', md :'25px'}} justifyContent='center' alignItems='center'> 
         <Box>
-            <a href="https://github.com/salonidhatrak">
-                <Image width={{base : '250px', md : '260px', lg : '350px'}} src={`https://github-readme-stats.vercel.app/api/top-langs/?username=salonidhatrak&`}/>
+            <a href="https://github.com/kedar05121998">
+                <Image width={{base : '250px', md : '260px', lg : '350px'}} src={`https://github-readme-stats.vercel.app/api/top-langs/?username=kedar05121998`}/>
             </a>
         </Box>
      </Flex>

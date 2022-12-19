@@ -21,11 +21,8 @@ function Home2() {
               </i>
                with highly motivated enthusiast with leadership
                   skills having a Bachelor of Engineering degree. A person who is eager
-                  to learn new technologies and methodologies
-                  and wants to succeed in an environment of
-                  excellence and growth which can help to
-                  achieve personal as well as organizational
-                  goal. Worked through 1000+ hours of Bootcamp structure learning
+                  to learn new technologies and methodologies.
+                 I Worked through 1000+ hours of Bootcamp structure learning
               JavaScript, React.Js, Node.Js, MongoDB, Express, HTML5, and CSS3.
             </p>
           </Col>
