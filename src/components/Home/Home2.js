@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
-
+import formalpassport from "../../Assets/formalpassport.jpg"
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -28,7 +28,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src="https://avatars.githubusercontent.com/u/101327577?v=4" className="img-fluid myphoto" alt="avatar" />
+              <img src={formalpassport} className="img-fluid myphoto" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
