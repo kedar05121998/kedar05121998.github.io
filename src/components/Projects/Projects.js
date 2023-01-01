@@ -42,7 +42,7 @@ function Projects() {
               description="Tripoto-Clone-Project: is a travel community and travel search engine portal based on user-generated content. It allows users to write travel stories and discover those written by other travelers."
               stacks="Tech Stack : ReactJS,NodeJS,MongoDB,ExpressJS,Javascript,Chakra UI "
               ghLink="https://github.com/atul85400krishna/wasteful-cast-8657"
-              demoLink="https://cosmic-klepon-f5ae52.netlify.app/"              
+              demoLink="https://precious-biscotti-a1a839.netlify.app/"              
             />
           </Col>
 
