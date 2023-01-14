@@ -50,12 +50,14 @@ function AboutCard() {
           </Col>
           <Col>
             <FaPhoneSquareAlt />
+        
             <br />
             <a
               href="tel:+917709314967"
               rel="noreferrer"
               className="contact_info"
             >
+ 
               +91 7709314967
             </a>
           </Col>
