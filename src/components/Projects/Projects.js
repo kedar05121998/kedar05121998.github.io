@@ -45,7 +45,7 @@ function Projects() {
               demoLink="https://precious-biscotti-a1a839.netlify.app/"              
             />
           </Col>
-
+{/* 
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={fabbag}
@@ -56,7 +56,7 @@ function Projects() {
               ghLink="https://github.com/kedar05121998/crazy-name-9363"
               demoLink="https://fab-bag-fawn.vercel.app/"
             />
-          </Col>
+          </Col> */}
 
         <Col md={4} className="project-card">
             <ProjectCard
