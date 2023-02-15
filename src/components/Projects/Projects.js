@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import betterCloud from "../../Assets/project/betterCloud.png"
 import dotandkey from "../../Assets/project/dotandkey.png"
-import fabbag from "../../Assets/project/fabbag.png"
+
 import weather from "../../Assets/project/weather.png"
 import tripoto from "../../Assets/project/tripoto.png"
 import shop from "../../Assets/project/shop.png"
