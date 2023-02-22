@@ -27,7 +27,7 @@ function Projects() {
               imgPath={shop}
               isBlog={false}
               title="Fayda Bazar"
-              description="This is a clone of Shop.com . this e-commers website. This is a American base web site. In this project i have been work for 5 days with 5 teammates including me."
+              description="This is a clone of Shop.com . this e-commerce website. This is a American base web site. In this project i have been work for 5 days with 5 teammates including me."
               stacks="Tech Stack : ReactJS,NodeJS,MongoDB,ExpressJS,Javascript,Chakra UI "
               ghLink="https://github.com/yadav123yo/FaydaBazar"
               demoLink="https://fayda-bazar.vercel.app/"              
