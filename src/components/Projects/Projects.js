@@ -7,6 +7,8 @@ import dotandkey from "../../Assets/project/dotandkey.png"
 import weather from "../../Assets/project/weather.png"
 import tripoto from "../../Assets/project/tripoto.png"
 import shop from "../../Assets/project/shop.png"
+import ndtv from "../../Assets/project/ndtv.png"
+
 
 function Projects() {
   return (
@@ -58,6 +60,18 @@ function Projects() {
             />
           </Col> */}
 
+<Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ndtv}
+              isBlog={false}
+              title="NDTV"
+              description="Clone of NDTV website which offers 24x7 live news."
+              stacks="Tech Stack : React,HTML,CSS ,Javascript,Bootstrap"
+              ghLink="https://github.com/kedar05121998/amused-can-5733"
+              demoLink="https://drive.google.com/file/d/18gQ-XBkmY3rJsDPJPA6H0WiH7iRjFGSG/view"
+            />
+          </Col>
+
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={betterCloud}
@@ -89,7 +103,7 @@ function Projects() {
               isBlog={false}
               title="Weather App"
               description="A weather forecasting web application built using weather API. It shows city and current location."
-              stacks="Tech Stack :  Javascript, Tailwind-CSS, Rest-API"
+              stacks="Tech Stack :  Javascript, CSS, Rest-API"
               ghLink="https://github.com/kedar05121998/Weather-App/tree/main"
               demoLink="https://keen-nasturtium-8da81a.netlify.app/"
             />
